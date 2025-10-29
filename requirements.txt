@@ -1,0 +1,39 @@
+# App and utilities
+streamlit>=1.39.0
+python-dotenv>=1.0.1
+pypdf>=4.3.1
+Pillow>=10.4.0
+pytest>=8.3.3
+pytest-cov>=4.1.0
+pytest-mock>=3.12.0
+requests>=2.32.3
+pydantic>=2.8.2
+watchdog>=4.0.0
+
+# OCR + Vision stack
+pytesseract>=0.3.13
+easyocr>=1.7.1
+opencv-python-headless>=4.10.0.84
+numpy>=1.26.4
+paddleocr>=3.3.0
+paddlepaddle>=3.2.0
+pdfplumber>=0.11.0
+google-cloud-vision>=3.7.4
+
+# LangChain + LLM + RAG
+langchain>=0.2.12
+langchain-openai>=0.2.3
+langchain-community>=0.2.3
+openai>=1.51.0
+tiktoken>=0.7.0
+pinecone-client>=4.0.0
+
+# Vector store (FAISS alternative)
+chromadb>=0.5.3
+
+# --- Hugging Face Donut model dependencies ---
+transformers>=4.43.0
+accelerate>=0.33.0
+torch>=2.1.0
+torchvision>=0.16.0
+pillow>=10.0.0
